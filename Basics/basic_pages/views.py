@@ -9,3 +9,6 @@ def packages(request):
   template = loader.get_template('packages.html')
   return HttpResponse(template.render())
 
+def albums(request):
+  template = loader.get_template('albums.html')
+  return HttpResponse(template.render())
